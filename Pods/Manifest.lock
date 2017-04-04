@@ -1,0 +1,36 @@
+PODS:
+  - Bond (6.0.0-beta.1):
+    - Diff (~> 0.4)
+    - ReactiveKit (~> 3.2)
+  - Diff (0.5.0)
+  - OHHTTPStubs (5.2.3):
+    - OHHTTPStubs/Default (= 5.2.3)
+  - OHHTTPStubs/Core (5.2.3)
+  - OHHTTPStubs/Default (5.2.3):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (5.2.3):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (5.2.3):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (5.2.3)
+  - OHHTTPStubs/Swift (5.2.3):
+    - OHHTTPStubs/Core
+  - ReactiveKit (3.2.0)
+
+DEPENDENCIES:
+  - Bond (~> 6.0-beta)
+  - OHHTTPStubs (= 5.2.3)
+  - OHHTTPStubs/Swift (= 5.2.3)
+
+SPEC CHECKSUMS:
+  Bond: 836d2bc25c46ea40206a78157acaab08c53f82ce
+  Diff: eceb93a3adf508574ba9b8560da185ace83de055
+  OHHTTPStubs: e238cd5b66d8efa51c861db45895de8fe079f4a7
+  ReactiveKit: 7383670a0baba37c77fdea28c845a286cb4e2ec7
+
+PODFILE CHECKSUM: bcfece60984ab036e634e89387e2a8d476359da0
+
+COCOAPODS: 1.1.1

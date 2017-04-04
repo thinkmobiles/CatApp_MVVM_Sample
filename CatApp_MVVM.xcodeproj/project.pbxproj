@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40389DA01E3A87C400D7EBCE /* EditCatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40389D9F1E3A87C400D7EBCE /* EditCatViewModelTests.swift */; };
+		4055BDA81E368DAC00DAD709 /* FilterOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4055BDA71E368DAC00DAD709 /* FilterOperation.swift */; };
+		4068B4BA1E34FC880035D620 /* EditCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068B4B91E34FC880035D620 /* EditCatViewController.swift */; };
+		4068B4BC1E34FCDA0035D620 /* ImageFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068B4BB1E34FCDA0035D620 /* ImageFilterCollectionViewCell.swift */; };
+		4068B4BE1E34FE8E0035D620 /* EditCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4068B4BD1E34FE8E0035D620 /* EditCatViewModel.swift */; };
 		408F4FBC1E1FB39F006712E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F4FBB1E1FB39F006712E5 /* AppDelegate.swift */; };
-		408F4FBE1E1FB39F006712E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F4FBD1E1FB39F006712E5 /* ViewController.swift */; };
 		408F4FC11E1FB39F006712E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F4FBF1E1FB39F006712E5 /* Main.storyboard */; };
 		408F4FC31E1FB39F006712E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408F4FC21E1FB39F006712E5 /* Assets.xcassets */; };
 		408F4FC61E1FB39F006712E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F4FC41E1FB39F006712E5 /* LaunchScreen.storyboard */; };
-		408F4FD11E1FB39F006712E5 /* CatApp_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F4FD01E1FB39F006712E5 /* CatApp_MVVMTests.swift */; };
+		408F4FD11E1FB39F006712E5 /* LoadCatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F4FD01E1FB39F006712E5 /* LoadCatViewModelTests.swift */; };
+		408F4FDF1E1FB43F006712E5 /* LoadCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F4FDE1E1FB43F006712E5 /* LoadCatViewController.swift */; };
+		408F4FE21E1FB4DD006712E5 /* LoadCatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F4FE11E1FB4DD006712E5 /* LoadCatViewModel.swift */; };
+		408F4FE71E1FBBB9006712E5 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F4FE51E1FBBB9006712E5 /* Cat.swift */; };
+		408F4FE81E1FBBB9006712E5 /* CatProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F4FE61E1FBBB9006712E5 /* CatProvider.swift */; };
+		40A4CAFD1E25742200E27246 /* CatProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A4CAFB1E25742200E27246 /* CatProviderTest.swift */; };
+		40A4CAFE1E25742200E27246 /* XCTestHTTPStubExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A4CAFC1E25742200E27246 /* XCTestHTTPStubExtension.swift */; };
+		40A4CB001E2575D100E27246 /* stubbedCatImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40A4CAFF1E2575D100E27246 /* stubbedCatImage.jpg */; };
+		EDDECCFE26E21C59B3F8DF69 /* Pods_CatApp_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE738DF875093D8C9FE8198 /* Pods_CatApp_MVVM.framework */; };
+		FBBAB369A34E2AE7FB2C903E /* Pods_CatApp_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A68680A68A3BCF6933F1BC4 /* Pods_CatApp_MVVMTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +39,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A68680A68A3BCF6933F1BC4 /* Pods_CatApp_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatApp_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25223145452116AE25F657D5 /* Pods-CatApp_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatApp_MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatApp_MVVM/Pods-CatApp_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		40389D9F1E3A87C400D7EBCE /* EditCatViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCatViewModelTests.swift; sourceTree = "<group>"; };
+		4055BDA71E368DAC00DAD709 /* FilterOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOperation.swift; sourceTree = "<group>"; };
+		4068B4B91E34FC880035D620 /* EditCatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCatViewController.swift; sourceTree = "<group>"; };
+		4068B4BB1E34FCDA0035D620 /* ImageFilterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		4068B4BD1E34FE8E0035D620 /* EditCatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCatViewModel.swift; sourceTree = "<group>"; };
 		408F4FB81E1FB39F006712E5 /* CatApp_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatApp_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F4FBB1E1FB39F006712E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		408F4FBD1E1FB39F006712E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		408F4FC01E1FB39F006712E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		408F4FC21E1FB39F006712E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408F4FC51E1FB39F006712E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		408F4FC71E1FB39F006712E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		408F4FCC1E1FB39F006712E5 /* CatApp_MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatApp_MVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		408F4FD01E1FB39F006712E5 /* CatApp_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatApp_MVVMTests.swift; sourceTree = "<group>"; };
+		408F4FD01E1FB39F006712E5 /* LoadCatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCatViewModelTests.swift; sourceTree = "<group>"; };
 		408F4FD21E1FB39F006712E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408F4FDE1E1FB43F006712E5 /* LoadCatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadCatViewController.swift; sourceTree = "<group>"; };
+		408F4FE11E1FB4DD006712E5 /* LoadCatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadCatViewModel.swift; sourceTree = "<group>"; };
+		408F4FE51E1FBBB9006712E5 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		408F4FE61E1FBBB9006712E5 /* CatProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatProvider.swift; sourceTree = "<group>"; };
+		40A4CAFB1E25742200E27246 /* CatProviderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatProviderTest.swift; sourceTree = "<group>"; };
+		40A4CAFC1E25742200E27246 /* XCTestHTTPStubExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestHTTPStubExtension.swift; sourceTree = "<group>"; };
+		40A4CAFF1E2575D100E27246 /* stubbedCatImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stubbedCatImage.jpg; sourceTree = "<group>"; };
+		904A2D4E942ED9F72D9346D9 /* Pods-CatApp_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatApp_MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatApp_MVVM/Pods-CatApp_MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		9CBDCB0021B1366A52D7E121 /* Pods-CatApp_MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatApp_MVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatApp_MVVMTests/Pods-CatApp_MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CE738DF875093D8C9FE8198 /* Pods_CatApp_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatApp_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D864DA3846F02A0A5253DFBF /* Pods-CatApp_MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatApp_MVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatApp_MVVMTests/Pods-CatApp_MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDECCFE26E21C59B3F8DF69 /* Pods_CatApp_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +81,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBAB369A34E2AE7FB2C903E /* Pods_CatApp_MVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08E527F5297C61364288AEC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CE738DF875093D8C9FE8198 /* Pods_CatApp_MVVM.framework */,
+				1A68680A68A3BCF6933F1BC4 /* Pods_CatApp_MVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4055BDA61E368D8F00DAD709 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4055BDA71E368DAC00DAD709 /* FilterOperation.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		408F4FAF1E1FB39F006712E5 = {
 			isa = PBXGroup;
 			children = (
 				408F4FBA1E1FB39F006712E5 /* CatApp_MVVM */,
 				408F4FCF1E1FB39F006712E5 /* CatApp_MVVMTests */,
 				408F4FB91E1FB39F006712E5 /* Products */,
+				A5A9C557D4F95D9F395F9167 /* Pods */,
+				08E527F5297C61364288AEC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				408F4FBB1E1FB39F006712E5 /* AppDelegate.swift */,
-				408F4FBD1E1FB39F006712E5 /* ViewController.swift */,
-				408F4FBF1E1FB39F006712E5 /* Main.storyboard */,
-				408F4FC21E1FB39F006712E5 /* Assets.xcassets */,
-				408F4FC41E1FB39F006712E5 /* LaunchScreen.storyboard */,
-				408F4FC71E1FB39F006712E5 /* Info.plist */,
+				408F4FDB1E1FB43F006712E5 /* Models */,
+				408F4FDD1E1FB43F006712E5 /* Views */,
+				408F4FDC1E1FB43F006712E5 /* ViewModels */,
+				4055BDA61E368D8F00DAD709 /* Utils */,
+				408F4FE01E1FB453006712E5 /* Supporting Files */,
 			);
 			path = CatApp_MVVM;
 			sourceTree = "<group>";
@@ -90,10 +141,64 @@
 		408F4FCF1E1FB39F006712E5 /* CatApp_MVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				408F4FD01E1FB39F006712E5 /* CatApp_MVVMTests.swift */,
+				40A4CAFF1E2575D100E27246 /* stubbedCatImage.jpg */,
+				40A4CAFB1E25742200E27246 /* CatProviderTest.swift */,
+				40A4CAFC1E25742200E27246 /* XCTestHTTPStubExtension.swift */,
+				408F4FD01E1FB39F006712E5 /* LoadCatViewModelTests.swift */,
+				40389D9F1E3A87C400D7EBCE /* EditCatViewModelTests.swift */,
 				408F4FD21E1FB39F006712E5 /* Info.plist */,
 			);
 			path = CatApp_MVVMTests;
+			sourceTree = "<group>";
+		};
+		408F4FDB1E1FB43F006712E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				408F4FE51E1FBBB9006712E5 /* Cat.swift */,
+				408F4FE61E1FBBB9006712E5 /* CatProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		408F4FDC1E1FB43F006712E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				408F4FE11E1FB4DD006712E5 /* LoadCatViewModel.swift */,
+				4068B4BD1E34FE8E0035D620 /* EditCatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		408F4FDD1E1FB43F006712E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				408F4FDE1E1FB43F006712E5 /* LoadCatViewController.swift */,
+				4068B4B91E34FC880035D620 /* EditCatViewController.swift */,
+				4068B4BB1E34FCDA0035D620 /* ImageFilterCollectionViewCell.swift */,
+				408F4FBF1E1FB39F006712E5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		408F4FE01E1FB453006712E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408F4FC21E1FB39F006712E5 /* Assets.xcassets */,
+				408F4FC41E1FB39F006712E5 /* LaunchScreen.storyboard */,
+				408F4FC71E1FB39F006712E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5A9C557D4F95D9F395F9167 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25223145452116AE25F657D5 /* Pods-CatApp_MVVM.debug.xcconfig */,
+				904A2D4E942ED9F72D9346D9 /* Pods-CatApp_MVVM.release.xcconfig */,
+				9CBDCB0021B1366A52D7E121 /* Pods-CatApp_MVVMTests.debug.xcconfig */,
+				D864DA3846F02A0A5253DFBF /* Pods-CatApp_MVVMTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408F4FD51E1FB39F006712E5 /* Build configuration list for PBXNativeTarget "CatApp_MVVM" */;
 			buildPhases = (
+				02A84906835FF2CBBD0AEC35 /* [CP] Check Pods Manifest.lock */,
 				408F4FB41E1FB39F006712E5 /* Sources */,
 				408F4FB51E1FB39F006712E5 /* Frameworks */,
 				408F4FB61E1FB39F006712E5 /* Resources */,
+				DAACCB0D783B7744F2CBF675 /* [CP] Embed Pods Frameworks */,
+				BB8194B20D5883A25213525B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408F4FD81E1FB39F006712E5 /* Build configuration list for PBXNativeTarget "CatApp_MVVMTests" */;
 			buildPhases = (
+				CF731CF264410EA6CC3088A6 /* [CP] Check Pods Manifest.lock */,
 				408F4FC81E1FB39F006712E5 /* Sources */,
 				408F4FC91E1FB39F006712E5 /* Frameworks */,
 				408F4FCA1E1FB39F006712E5 /* Resources */,
+				5B8CB98CE585D6D62E929FAB /* [CP] Embed Pods Frameworks */,
+				BA81A040D85138F7D3FE2505 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,11 +252,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Sauron Black";
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Thinkmobiles;
 				TargetAttributes = {
 					408F4FB71E1FB39F006712E5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7JSQETKKF7;
 						ProvisioningStyle = Automatic;
 					};
 					408F4FCB1E1FB39F006712E5 = {
@@ -189,18 +301,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A4CB001E2575D100E27246 /* stubbedCatImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A84906835FF2CBBD0AEC35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B8CB98CE585D6D62E929FAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatApp_MVVMTests/Pods-CatApp_MVVMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA81A040D85138F7D3FE2505 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatApp_MVVMTests/Pods-CatApp_MVVMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8194B20D5883A25213525B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatApp_MVVM/Pods-CatApp_MVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF731CF264410EA6CC3088A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAACCB0D783B7744F2CBF675 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatApp_MVVM/Pods-CatApp_MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		408F4FB41E1FB39F006712E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408F4FBE1E1FB39F006712E5 /* ViewController.swift in Sources */,
+				408F4FE71E1FBBB9006712E5 /* Cat.swift in Sources */,
+				4055BDA81E368DAC00DAD709 /* FilterOperation.swift in Sources */,
+				408F4FE81E1FBBB9006712E5 /* CatProvider.swift in Sources */,
 				408F4FBC1E1FB39F006712E5 /* AppDelegate.swift in Sources */,
+				4068B4BE1E34FE8E0035D620 /* EditCatViewModel.swift in Sources */,
+				4068B4BC1E34FCDA0035D620 /* ImageFilterCollectionViewCell.swift in Sources */,
+				4068B4BA1E34FC880035D620 /* EditCatViewController.swift in Sources */,
+				408F4FDF1E1FB43F006712E5 /* LoadCatViewController.swift in Sources */,
+				408F4FE21E1FB4DD006712E5 /* LoadCatViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408F4FD11E1FB39F006712E5 /* CatApp_MVVMTests.swift in Sources */,
+				40A4CAFE1E25742200E27246 /* XCTestHTTPStubExtension.swift in Sources */,
+				408F4FD11E1FB39F006712E5 /* LoadCatViewModelTests.swift in Sources */,
+				40A4CAFD1E25742200E27246 /* CatProviderTest.swift in Sources */,
+				40389DA01E3A87C400D7EBCE /* EditCatViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +445,7 @@
 				408F4FC01E1FB39F006712E5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		408F4FC41E1FB39F006712E5 /* LaunchScreen.storyboard */ = {
@@ -335,11 +552,15 @@
 		};
 		408F4FD61E1FB39F006712E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25223145452116AE25F657D5 /* Pods-CatApp_MVVM.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7JSQETKKF7;
 				INFOPLIST_FILE = CatApp_MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mordor.CatApp-MVVM";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkmobiles.Cat-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -347,11 +568,15 @@
 		};
 		408F4FD71E1FB39F006712E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904A2D4E942ED9F72D9346D9 /* Pods-CatApp_MVVM.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7JSQETKKF7;
 				INFOPLIST_FILE = CatApp_MVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mordor.CatApp-MVVM";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkmobiles.Cat-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -359,6 +584,7 @@
 		};
 		408F4FD91E1FB39F006712E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBDCB0021B1366A52D7E121 /* Pods-CatApp_MVVMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,6 +599,7 @@
 		};
 		408F4FDA1E1FB39F006712E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D864DA3846F02A0A5253DFBF /* Pods-CatApp_MVVMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,6 +631,7 @@
 				408F4FD71E1FB39F006712E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		408F4FD81E1FB39F006712E5 /* Build configuration list for PBXNativeTarget "CatApp_MVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +640,7 @@
 				408F4FDA1E1FB39F006712E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
